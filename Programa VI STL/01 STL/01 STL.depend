@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508244976 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\01 stl\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1477487038 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\11 transform\main.cpp
+	<iostream>
+	<list>
+	<algorithm>
+

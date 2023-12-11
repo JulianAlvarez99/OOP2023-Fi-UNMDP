@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="STL">
+		<Project filename="01 STL/01 STL.cbp" />
+		<Project filename="02 Vector_1/02 Vector_1.cbp" />
+		<Project filename="03 Vector_2/03 Vector_2.cbp" />
+		<Project filename="04 List_1/04 List_1.cbp" />
+		<Project filename="05 List_2/05 List_2.cbp" />
+		<Project filename="06 List_3/06 List_3.cbp" />
+		<Project filename="07 Map_1/07 Map_1.cbp" />
+		<Project filename="08 Map_2/08 Map_2.cbp" />
+		<Project filename="09 Stack/09 Stack.cbp" />
+		<Project filename="10 Count/10 Count.cbp" />
+		<Project filename="11 Transform/11 Transform.cbp" />
+		<Project filename="12 Funcion_objeto/12 Funcion_objeto.cbp" />
+		<Project filename="13 Print_vec_lst/13 Print_vec_lst.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

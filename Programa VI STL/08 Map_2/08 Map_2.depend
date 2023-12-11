@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1477082376 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\08 map_2\main.cpp
+	"persona.h"
+	<map>
+
+1503939043 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\08 map_2\persona.h
+	<iostream>
+

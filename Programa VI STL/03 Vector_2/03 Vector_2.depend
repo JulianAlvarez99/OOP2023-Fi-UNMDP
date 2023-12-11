@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1507811954 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\03 vector_2\main.cpp
+	<iostream>
+	<vector>
+	"complejos.h"
+
+1504637818 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\03 vector_2\complejos.h
+	<iostream>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1477491622 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\13 print_vec_lst\main.cpp
+	<iostream>
+	<list>
+	<vector>
+	<deque>
+	<stdlib.h>
+

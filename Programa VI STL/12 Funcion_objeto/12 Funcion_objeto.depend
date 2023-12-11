@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1507812183 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\12 funcion_objeto\main.cpp
+	<iostream>
+	<list>
+	<functional>
+	<algorithm>
+	<vector>
+	<math.h>
+	"complejos.h"
+
+1504637818 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 6\stl\12 funcion_objeto\complejos.h
+	<iostream>
+
