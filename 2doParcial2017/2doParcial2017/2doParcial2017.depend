@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1700189557 source:c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\src\myexception.cpp
+	"myException.h"
+
+1700179918 c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\include\myexception.h
+	<iostream>
+	<fstream>
+
+1700192246 source:c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\src\ctransporte.cpp
+	"CTransporte.h"
+
+1700193595 c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\include\ctransporte.h
+	<iostream>
+	"CColor.h"
+
+1700189174 source:c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\src\persona.cpp
+	"persona.h"
+
+1700189105 c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\include\persona.h
+	<iostream>
+
+1700190921 source:c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\src\ccolor.cpp
+	"CColor.h"
+
+1700190902 c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\include\ccolor.h
+
+1700192316 source:c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\src\cterrestre.cpp
+	"CTerrestre.h"
+
+1700192849 c:\users\julia\desktop\algoritmo y estructuras de datos\1er parcial 2022\2doparcial2017\include\cterrestre.h
+	"CTransporte.h"
+
+1700197289 source:c:\users\julia\desktop\poo\2doparcial2017\src\cterrestre.cpp
+	"CTerrestre.h"
+
+1700197304 c:\users\julia\desktop\poo\2doparcial2017\include\cterrestre.h
+	"CTransporte.h"
+
+1700197237 c:\users\julia\desktop\poo\2doparcial2017\include\ctransporte.h
+	<iostream>
+
+1700189557 source:c:\users\julia\desktop\poo\2doparcial2017\src\myexception.cpp
+	"myException.h"
+
+1700179918 c:\users\julia\desktop\poo\2doparcial2017\include\myexception.h
+	<iostream>
+	<fstream>
+
+1700194125 source:c:\users\julia\desktop\poo\2doparcial2017\src\persona.cpp
+	"persona.h"
+
+1700194120 c:\users\julia\desktop\poo\2doparcial2017\include\persona.h
+	<iostream>
+
+1700197232 source:c:\users\julia\desktop\poo\2doparcial2017\src\ctransporte.cpp
+	"CTransporte.h"
+
+1700197289 source:c:\users\julia\desktop\poo\2doparcial2017\src\cmaritimo.cpp
+	"CMaritimo.h"
+
+1700197232 c:\users\julia\desktop\poo\2doparcial2017\include\cmaritimo.h
+	"CTransporte.h"
+
+1700197408 source:c:\users\julia\desktop\poo\2doparcial2017\main.cpp
+	<iostream>
+	<map>
+	<algorithm>
+	"myException.h"
+	"CMaritimo.h"
+	"CTerrestre.h"
+	"persona.h"
+
+1700248999 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\src\cmaritimo.cpp
+	"CMaritimo.h"
+
+1700248709 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\include\cmaritimo.h
+	"CTransporte.h"
+
+1700249012 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\include\ctransporte.h
+	<iostream>
+
+1700249150 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\src\cterrestre.cpp
+	"CTerrestre.h"
+
+1700248709 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\include\cterrestre.h
+	"CTransporte.h"
+
+1700248999 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\src\ctransporte.cpp
+	"CTransporte.h"
+
+1700225756 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\src\myexception.cpp
+	"myException.h"
+
+1700225756 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\include\myexception.h
+	<iostream>
+	<fstream>
+
+1700233543 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\src\persona.cpp
+	"persona.h"
+
+1700247047 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\include\persona.h
+	<iostream>
+
+1700249311 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2017\2doparcial2017\main.cpp
+	<iostream>
+	<map>
+	<algorithm>
+	"myException.h"
+	"CMaritimo.h"
+	"CTerrestre.h"
+	"persona.h"
+

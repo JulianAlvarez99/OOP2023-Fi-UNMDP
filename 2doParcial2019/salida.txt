@@ -1,0 +1,60 @@
+
+Soy un rectangulo de base = 0.7 altura = 0.3 y area = 0.21
+
+BackColor:
+componente rojo: 0
+componente verde: 175
+componente azul: 3
+componente alpha: 250
+
+ForeColor:
+componente rojo: 0
+componente verde: 175
+componente azul: 250
+componente alpha: 3
+
+Soy un rectangulo de base = 1.2 altura = 2.5 y area = 3
+
+BackColor:
+componente rojo: 66
+componente verde: 10
+componente azul: 254
+componente alpha: 11
+
+ForeColor:
+componente rojo: 66
+componente verde: 254
+componente azul: 11
+componente alpha: 10
+
+Soy un circulo de radio = 2 y area = 12.5664
+
+BackColor:
+componente rojo: 16
+componente verde: 255
+componente azul: 0
+componente alpha: 255
+
+ForeColor:
+componente rojo: 16
+componente verde: 0
+componente azul: 255
+componente alpha: 255
+
+Soy un triangulo de base = 5 altura = 7 y area = 17.5
+
+BackColor:
+componente rojo: 7
+componente verde: 85
+componente azul: 97
+componente alpha: 234
+
+ForeColor:
+componente rojo: 3
+componente verde: 237
+componente azul: 6
+componente alpha: 255
+
+
+
+Area total = 33.2764

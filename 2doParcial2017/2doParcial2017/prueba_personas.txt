@@ -1,0 +1,15 @@
+
+Nombre:Pedro
+DNI:12345678
+Fecha de nacimiento: 13/11/2017
+
+Nombre:Roberto
+DNI:12516857
+Fecha de nacimiento: 26/10/2017
+
+Nombre:Pablo
+DNI:92736675
+Fecha de nacimiento: 25/10/1980
+
+
+

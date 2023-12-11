@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1701154299 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\main.cpp
+	"ManejadorFiguras.h"
+
+1701154967 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\manejadorfiguras.h
+	<vector>
+	<cstdint>
+	<ostream>
+	<fstream>
+	<algorithm>
+	"CCirculo.h"
+	"CRectangulo.h"
+	"CTriangulo.h"
+	<sstream>
+
+1701151744 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\cfigura.h
+	<math.h>
+	<iostream>
+	<fstream>
+	"CColor.h"
+
+1700584892 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\ccolor.h
+	<ostream>
+
+1701153212 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\ccirculo.cpp
+	"CCirculo.h"
+
+1701151438 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\ccirculo.h
+	"CFigura.h"
+
+1701062392 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\cfigura.cpp
+	"CFigura.h"
+
+1701153903 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\crectangulo.cpp
+	"CRectangulo.h"
+
+1701151438 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\crectangulo.h
+	"CFigura.h"
+
+1700580091 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\ccolor.cpp
+	"CColor.h"
+
+1701154967 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\manejadorfiguras.cpp
+	"ManejadorFiguras.h"
+
+1700339202 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\myexception.cpp
+	"myException.h"
+
+1700339214 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\myexception.h
+	<iostream>
+	<fstream>
+
+1701153212 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\src\ctriangulo.cpp
+	"CTriangulo.h"
+
+1701151438 c:\users\asusx\onedrive\escritorio\orientada a objetos\2doparcial2019\include\ctriangulo.h
+	"CFigura.h"
+
