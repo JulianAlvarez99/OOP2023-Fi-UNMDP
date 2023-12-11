@@ -1,0 +1,126 @@
+#include <iostream>
+using namespace std;
+
+class base
+{
+    public:
+        base(void)
+        {
+            num = 1;
+            cout << num << endl;
+        }
+        base(int val)
+        {
+            num = val;
+            cout << num << endl;
+        }
+        ~base(void)
+        {
+            cout << "Destructor clase base" << endl;
+        }
+    protected:
+        int num;
+};
+
+class miembro
+{
+    public:
+        miembro(void)
+        {
+            cout << "Constructor miembro" << endl;
+        }
+        ~miembro(void)
+        {
+            cout << "Destructor miembro" << endl;
+        }
+};
+
+class otra_base
+{
+    public:
+        otra_base(void)
+        {
+            num = 10;
+            cout << num << endl;
+        }
+        otra_base(int val)
+        {
+            num = val;
+            cout << num << endl;
+        }
+        ~otra_base(void)
+        {
+            cout << "Destructor otra_base" << endl;
+        }
+    private:
+        int num;
+        miembro obj;
+};
+
+class derivada : private base, public otra_base
+{
+    public:
+        derivada(void)
+        {
+            base::num = 10;
+            otra_base(20); // otra_base::num = 20; ES INCORRECTO YA QUE NUM ES PRIVADO POR LO TANTO ES INACCESIBLE PARA ESTA CLASE QUE HEREDA OTRA_BASE
+            num = 35;      //PARA CORREGIR EL ERROR O BIEN LLAMAMOS AL CONSTRUCTOR QUE ASIGNA EL VALOR AL ATRIBUTO NUM O MODIFICAMOS EL PRIVATE POR PROTECTED
+        }                  //PARA QUE LAS CLASES QUE LO HEREDEN PUEDAN ACCEDER AL ATRIBUTO
+        derivada(int valor) : base(valor/10), otra_base(valor*10)
+        {
+            num = 45;
+        }
+        ~derivada(void)
+        {
+            cout << "Destructor derivada" << endl;
+        }
+        void SetNum(int val)
+        {
+            num = val;
+        }
+        int GetNum()
+        {
+            return num;
+        }
+    private:
+        int num;
+};
+int main()
+{
+    derivada obj1,
+             obj2 = 20;
+    cout << "\nValor de num en obj1 = " << obj1.GetNum() << endl;
+    cout << "\nValor de num en obj2 = " << obj2.GetNum() << endl;
+    obj1.SetNum(50);
+    obj2.SetNum(100);
+    cout << "\nValor de num en obj1 = " << obj1.GetNum() << endl;
+    cout << "\nValor de num en obj2 = " << obj2.GetNum() << endl << endl;
+    return 0;
+}
+
+/**
+Salida
+1
+constructor miembro
+10
+constructor miembro
+20
+destructor otra base
+destructor miembro
+2
+constructor miembro
+200
+35
+45
+50
+100
+destructor derivada
+destructor otra base
+destructor miembro
+destructor base
+destructor derivada
+destructor otra base
+destructor miembro
+destructor base
+
+**/

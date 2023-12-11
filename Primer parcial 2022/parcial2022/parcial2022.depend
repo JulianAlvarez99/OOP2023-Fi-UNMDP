@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1695490331 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\main.cpp
+	<iostream>
+	"cRadioReloj.h"
+
+1695485321 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\cradio.cpp
+	"cRadio.h"
+
+1695486166 c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\cradio.h
+	<iostream>
+
+1695489560 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\cradioreloj.cpp
+	<iostream>
+	"cRadioReloj.h"
+
+1695484601 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\creloj.cpp
+	"cReloj.h"
+	"cTime.h"
+
+1695483241 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\ctime.cpp
+	"cTime.h"
+
+1695482966 c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\ctime.h
+	<iostream>
+
+1695489375 c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\creloj.h
+	"cTime.h"
+
+1695487798 c:\users\asusx\onedrive\escritorio\orientada a objetos\primer parcial 2022\parcial2022\cradioreloj.h
+	"cRadio.h"
+	"cReloj.h"
+

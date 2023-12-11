@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1696724223 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\main.cpp
+	"CPantalla.h"
+	"CColor.h"
+
+1696722871 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\include\cmatriz.h
+	<string>
+	<iostream>
+	<fstream>
+	<cstring>
+	"CColor.h"
+
+1696984406 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\src\cmatriz.cpp
+	"CMatriz.h"
+	<iomanip>
+
+1696349475 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\include\cpantalla.h
+	"CMatriz.h"
+	<iostream>
+
+1696994369 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\src\cpantalla.cpp
+	"CPantalla.h"
+
+1696724224 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\src\ccolor.cpp
+	"CColor.h"
+
+1696724759 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1poov2\include\ccolor.h
+	<iostream>
+

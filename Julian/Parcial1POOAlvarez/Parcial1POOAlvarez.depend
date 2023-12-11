@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1695742186 source:d:\julian\parcial1pooalvarez\ccolor.cpp
+
+1695747266 source:d:\julian\parcial1pooalvarez\cmatriz.cpp
+	"cMatriz.h"
+
+1695748618 d:\julian\parcial1pooalvarez\cmatriz.h
+	<iostream>
+	<fstream>
+	<cstring>
+
+1695749194 source:d:\julian\parcial1pooalvarez\cpantalla.cpp
+	"cPantalla.h"
+
+1695742383 source:d:\julian\parcial1pooalvarez\main.cpp
+	"cMatriz.h"
+	"cPantalla.h"
+
+1695750822 d:\julian\parcial1pooalvarez\cpantalla.h
+	"cMatriz.h"
+	<iostream>
+
+1695965649 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\main.cpp
+	"cMatriz.h"
+	"cPantalla.h"
+
+1695963965 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\cmatriz.h
+	"cColor.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1695998342 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\cpantalla.h
+	"cMatriz.h"
+	<iostream>
+
+1696254317 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\cmatriz.cpp
+	"cMatriz.h"
+	<iomanip>
+
+1695965728 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\ccolor.cpp
+	"CColor.h"
+
+1696000364 c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\ccolor.h
+	<ostream>
+	<cstdint>
+
+1695999809 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\julian\parcial1pooalvarez\cpantalla.cpp
+	"cPantalla.h"
+

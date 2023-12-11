@@ -1,0 +1,32 @@
+2. ¿Qué alcance tiene la declaración de una variable miembro static y por qué?
+
+Sólo existe una copia de cada una de las variables miembro static. Todos los objetos
+declarados de esa clase hacen referencia a la misma posición de memoria. Las variables static de una clase existen aunque no se haya declarado ningún objeto. La
+variable debe declararse dentro de la definición de la clase y después debe definirse
+(inicializarse) como global en el programa que utilizará la clase. Por lo que una variable miembro static se vuelve común para todos los objetos de la clase, de modo que todos compartan el mismo valor
+
+3. ¿Cuál es el objetivo del modificador volatile?
+
+Poder modificar valores fuera del programa ya sea variables, argumentos metodos de clase o hasta instancias de clases. En el caso del uso en metodos de clase la función debe ser invocada por objetos también volatile. En el caso de instancias de clase se agrega una característica de seguridad. Si un objeto volatile invoca a una función miembro no-volatile, el compilador produce un error.
+
+4. ¿Existe alguna forma de modificar el valor de una variable miembro de un objeto
+declarado como constante?
+
+Se puede utilizar un modificador mutable para indicar que un miembro en particular de una clase puede ser alterado, aun cuando esta se declaró const
+
+5. Indique que se entiende por tipo de dato reference y cuáles son sus principales usos. Como se inicializa una referencia a una variable?
+
+El tipo de dato reference a una variable es un "alias" de la misma (misma posicion de memoria). El principal uso de las variables referencia es como valor de retorno de una funcion o como argumentos de la misma. Para declararla se le antepone al nombre el caracter & y debe ser incializada a otra variable o a un valor numerico. Los arrays no pueden ser declarados como variables referencia.
+
+6. Indique qué se entiende por namespaces (espacios de nombres). ¿Cómo se utiliza?
+
+Un namespace es una zona separada donde se pueden declarar y definir objetos, funciones y cualquier identificador de tipo, clase, estructura, etc.; al que se asigna un nombre. Pueden existir objetos o funciones con el mismo nombre, declarados en diferentes ficheros , fuente, siempre y cuando se declaren en distintos espacios de nombre. En esencia, un namespace define un alcance (scope).
+
+Existen dos opciones para acceder a los datos/funciones de un namespace:
+a) using namespace <ns_nombre>;
+<variable> = valor;
+<funcion>(par1, par2, ....);
+
+b) <ns_nombre>::<variable> = valor;
+<ns_nombre>::<funcion>(par1, par2, ....);
+ Los nombres introducidos con una directiva using cumplen con las reglas de ámbito: el nombre es visible desde el punto en que se incluye la directiva hasta el final de su alcance
