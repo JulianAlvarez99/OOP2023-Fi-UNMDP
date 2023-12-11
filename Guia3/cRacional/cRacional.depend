@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1695697427 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\cracional\main.cpp
+	<iostream>
+	"cRational.h"
+
+1695697411 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\cracional\crational.h
+	<iostream>
+
+1695697954 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\cracional\crational.cpp
+	"cRational.h"
+	<algorithm>
+	<numeric>
+

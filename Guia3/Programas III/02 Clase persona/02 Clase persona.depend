@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1503938892 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\02 clase persona\main.cpp
+	"persona.h"
+
+1503939043 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\02 clase persona\persona.h
+	<iostream>
+
+1504187725 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\02 clase persona\persona.cpp
+	"persona.h"
+	<ctime>
+
+1535485842 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\02 clase persona\main.cpp
+	"persona.h"
+
+1535485819 c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\02 clase persona\persona.h
+	<iostream>
+
+1535485833 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\02 clase persona\persona.cpp
+	"persona.h"
+	<ctime>
+

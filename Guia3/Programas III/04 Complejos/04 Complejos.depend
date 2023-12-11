@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1507661398 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\04 complejos\complejos.cpp
+	"complejos.h"
+
+1504637818 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\04 complejos\complejos.h
+	<iostream>
+
+1507661523 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 3\programas\04 complejos\main.cpp
+	"complejos.h"
+
+1536152282 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\04 complejos\complejos.cpp
+	"complejos.h"
+
+1504637818 c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\04 complejos\complejos.h
+	<iostream>
+
+1536086259 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\04 complejos\main.cpp
+	"complejos.h"
+

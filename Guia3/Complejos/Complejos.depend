@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1693933839 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia3\complejos\main.cpp
+	"Complejos.h"
+
+1693934098 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia3\complejos\complejos.cpp
+	"Complejos.h"
+
+1693934098 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia3\complejos\complejos.h
+	<iostream>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1503940028 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\03 func amiga\main.cpp
+	<iostream>
+	"punto.h"
+
+1503939795 c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\03 func amiga\punto.h
+	<iostream>
+	<math.h>
+
+1503939795 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2018\teoria\unidad 3\programas\03 func amiga\punto.cpp
+	"punto.h"
+

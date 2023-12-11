@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="01 Param def/01 Param def.cbp" />
+		<Project filename="02 Clase persona/02 Clase persona.cbp" />
+		<Project filename="03 Func amiga/03 Func amiga.cbp" />
+		<Project filename="04 Complejos/04 Complejos.cbp" />
+		<Project filename="05 Static cast/05 Static cast.cbp" />
+		<Project filename="06 Const cast/06 Const cast.cbp" />
+		<Project filename="07 Reinterpret cast/07 Reinterpret cast.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,54 @@
+1) ¿Qué significa el modificador const situado a la derecha de los paréntesis, en
+la declaración de un método?
+
+El modificador const en esta ubicación indica que la función no modifican el estado de la clase (no modifican sus variables private). Un método const puede ser llamado en objetos const y no-const. Aquellos métodos que no son const sólo pueden ser llamados por objetos que no sean const.
+
+2) ¿ Cómo se declaran dos clases mutuamente amigas?
+
+Cuando dos clases deben ser declaradas mutuamente friend se debe utilizar una declaración anticipada (forward declaration) de una de ellas en el archivo de declaración:
+
+class <clase2>;
+
+class <clase1>
+{
+    /* funciones y variables miembro de clase1 */
+    friend clase2;
+};
+
+class <clase2>
+{
+    /* funciones y variables miembro de clase2 */
+    friend clase1;
+};
+
+3) ¿Qué diferencia hay entre un constructor de copia y el operador de asignación
+(=)?
+
+El constructor de copia inicializa un nuevo objeto copiándolo desde otro objeto de la misma clase. Tiene un único argumento que es una referencia constante al objeto fuente.
+
+No hay diferencia con el operador de asignación, excepto en el caso que la clase contenga punteros. Ahí se debe sobrecargar el constructor de copia para hacer un manejo correcto de la memoria dinámica.
+
+4) ¿Cuándo se llama al constructor de copia?
+
+Existen dos casos muy importantes en los que hay que utilizar copias del objeto:
+-Cuando a una función se le pasan objetos como argumentos por valor.  
+-Cuando una función tiene un objeto como valor de retorno.
+
+5) Al sobrecargar funciones miembro de una clase, ¿de qué manera deben
+diferir?
+
+Pueden diferir en cuanto a los parámetros de entrada, pero tanto el nombre como el tipo de dato que devuelvan deben ser iguales.
+
+6) ¿Por qué utilizar valores predeterminados si se puede sobrecargar una
+función?
+
+Al invocar la función los argumentos no especificados adoptan sus valores por defecto. Si se
+omite un argumento deben omitirse también todos los que se encuentren a continuación.
+
+7) ¿Qué operadores no se pueden sobrecargar en C++?
+
+Los únicos operadores que no se pueden sobrecargar son el punto (.), el if ternario (?:), el (sizeof), el scope resolution (::), y puntero a miembro de un objeto (.*).
+
+8) ¿Para qué sirve el operador const_cast<type>? 
+
+Sirve para eliminar el modificador const de una referencia o un puntero. Actúa durante la compilación. No cambia el tipo del operando, ni permite que una variable constante pueda modificarse, sino que permite pasar un objeto constante a una función que espera una referencia.
