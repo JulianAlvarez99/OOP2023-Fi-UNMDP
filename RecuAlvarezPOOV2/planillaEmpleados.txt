@@ -1,0 +1,13 @@
+Nombre:Roberto Hidalgo			DNI:12516857
+Fecha de nacimiento: 29/01/1959		Estado civil: Casado
+Fecha de contratacion: 01/01/1980	Salario: $95000
+
+Nombre:Jose Perez			DNI:17871415
+Fecha de nacimiento: 17/10/1965		Estado civil: Soltero
+Fecha de contratacion: 02/05/2017	 Dia de pago: 24	Comision: $60015.6
+
+Nombre:Marcelo Suarez			DNI:23212658
+Fecha de nacimiento: 25/06/1985		Estado civil: Casado
+Fecha de contratacion: 25/03/2018	 Dia de pago: 15	Comision: $37509.8
+Pago Administrativo: $95000		Salario: $132510
+

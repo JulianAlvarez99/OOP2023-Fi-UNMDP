@@ -1,0 +1,154 @@
+# depslib dependency file v1.0
+1697816027 source:d:\recualvarezpoo\recualvarezpoo\main.cpp
+	"CAdministrativo.h"
+	"CGerenteVentas.h"
+
+1697815917 d:\recualvarezpoo\recualvarezpoo\include\cadministrativo.h
+	"CPersona.h"
+
+1697810763 d:\recualvarezpoo\recualvarezpoo\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1697809469 d:\recualvarezpoo\recualvarezpoo\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1697815987 source:d:\recualvarezpoo\recualvarezpoo\src\cadministrativo.cpp
+	"CAdministrativo.h"
+
+1697809470 source:d:\recualvarezpoo\recualvarezpoo\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1697815992 source:d:\recualvarezpoo\recualvarezpoo\src\cpersona.cpp
+	"CPersona.h"
+
+1697815913 source:d:\recualvarezpoo\recualvarezpoo\src\cvendedor.cpp
+	"CVendedor.h"
+
+1697815913 d:\recualvarezpoo\recualvarezpoo\include\cvendedor.h
+	"CPersona.h"
+
+1697815913 source:d:\recualvarezpoo\recualvarezpoo\src\cgerenteventas.cpp
+	"CGerenteVentas.h"
+
+1697815933 d:\recualvarezpoo\recualvarezpoo\include\cgerenteventas.h
+	"CVendedor.h"
+
+1697816027 source:d:\recualvarezpoo\main.cpp
+	"CAdministrativo.h"
+	"CGerenteVentas.h"
+
+1697815917 d:\recualvarezpoo\include\cadministrativo.h
+	"CPersona.h"
+
+1697810763 d:\recualvarezpoo\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1697809469 d:\recualvarezpoo\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1697815933 d:\recualvarezpoo\include\cgerenteventas.h
+	"CVendedor.h"
+
+1697815913 d:\recualvarezpoo\include\cvendedor.h
+	"CPersona.h"
+
+1697815987 source:d:\recualvarezpoo\src\cadministrativo.cpp
+	"CAdministrativo.h"
+
+1697809470 source:d:\recualvarezpoo\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1697816077 source:d:\recualvarezpoo\src\cgerenteventas.cpp
+	"CGerenteVentas.h"
+
+1697815992 source:d:\recualvarezpoo\src\cpersona.cpp
+	"CPersona.h"
+
+1697815913 source:d:\recualvarezpoo\src\cvendedor.cpp
+	"CVendedor.h"
+
+1697835884 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\main.cpp
+	"CAdministrativo.h"
+	"CGerenteVentas.h"
+
+1697836022 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\include\cadministrativo.h
+	"CPersona.h"
+
+1697836320 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1697836320 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1697836260 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\include\cgerenteventas.h
+	"CVendedor.h"
+
+1697836230 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\include\cvendedor.h
+	"CPersona.h"
+
+1697836192 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\src\cadministrativo.cpp
+	"CAdministrativo.h"
+
+1697836297 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1697836280 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\src\cgerenteventas.cpp
+	"CGerenteVentas.h"
+
+1697834771 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\src\cpersona.cpp
+	"CPersona.h"
+
+1697836240 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoo\src\cvendedor.cpp
+	"CVendedor.h"
+
+1697836192 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\src\cadministrativo.cpp
+	"CAdministrativo.h"
+
+1697836022 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\include\cadministrativo.h
+	"CPersona.h"
+
+1697836320 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1697836320 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1697836297 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1698160231 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\src\cgerenteventas.cpp
+	"CGerenteVentas.h"
+
+1698160067 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\include\cgerenteventas.h
+	"CVendedor.h"
+	"CAdministrativo.h"
+
+1697836230 c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\include\cvendedor.h
+	"CPersona.h"
+
+1697834771 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\src\cpersona.cpp
+	"CPersona.h"
+
+1697836240 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\src\cvendedor.cpp
+	"CVendedor.h"
+
+1698160161 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\recualvarezpoov2\main.cpp
+	"CAdministrativo.h"
+	"CGerenteVentas.h"
+

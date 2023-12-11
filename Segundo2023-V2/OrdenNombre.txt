@@ -1,0 +1,33 @@
+
+TRABAJO DE PINTURA
+    Cliente: Cliente4
+    Fecha de inicio: 01/02/2023
+    Pintor: Pintor2
+    Costo Materiales: $ 17.3077
+    Costo Mano Obra: $ 28.5
+    Costo Adicional: $ 6.87115
+    Costo Total: $ 52.6788
+
+REVISION PERIODICA ALARMAS CONTRA INCENDIOS
+    Cliente: Cliente3
+    Fecha de revision: 01/03/2023
+    Revisor: Revisor Especialista Contraincendios
+    Costo Total: $ 633.333
+
+REVISION PERIODICA ALARMAS CONTRA INCENDIOS
+    Cliente: Cliente2
+    Fecha de revision: 15/04/2023
+    Revisor: Revisor Especialista Contraincendios
+    Costo Total: $ 566.667
+
+TRABAJO DE PINTURA
+    Cliente: Cliente1
+    Fecha de inicio: 10/01/2023
+    Pintor: Pintor1
+    Costo Materiales: $ 38.4615
+    Costo Mano Obra: $ 57
+    Costo Adicional: $ 0
+    Costo Total: $ 95.4615
+
+
+

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1701194763 source:d:\alvarezsegundoparcial\segundoparcialalvarez\main.cpp
+	<iostream>
+	"ManejadorServicios.h"
+
+1701184280 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1701184280 d:\alvarezsegundoparcial\segundoparcialalvarez\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1701194007 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\servicio.cpp
+	"Servicio.h"
+
+1701194007 d:\alvarezsegundoparcial\segundoparcialalvarez\include\servicio.h
+	<iostream>
+	"CPersona.h"
+
+1701188367 d:\alvarezsegundoparcial\segundoparcialalvarez\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1701188351 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\cpersona.cpp
+	"CPersona.h"
+
+1701187826 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\revisionalarma.cpp
+	"RevisionAlarma.h"
+
+1701187681 d:\alvarezsegundoparcial\segundoparcialalvarez\include\revisionalarma.h
+	"Servicio.h"
+
+1701191771 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\trabajopintura.cpp
+	"TrabajoPintura.h"
+
+1701191771 d:\alvarezsegundoparcial\segundoparcialalvarez\include\trabajopintura.h
+	"Servicio.h"
+
+1701195402 source:d:\alvarezsegundoparcial\segundoparcialalvarez\src\manejadorservicios.cpp
+	"ManejadorServicios.h"
+
+1701195047 d:\alvarezsegundoparcial\segundoparcialalvarez\include\manejadorservicios.h
+	<vector>
+	<cstdint>
+	<ostream>
+	<fstream>
+	<algorithm>
+	"TrabajoPintura.h"
+	"RevisionAlarma.h"
+	<sstream>
+

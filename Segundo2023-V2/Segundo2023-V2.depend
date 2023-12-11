@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1701327986 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\main.cpp
+	<iostream>
+	"ManejadorServicios.h"
+
+1701325531 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\manejadorservicios.h
+	<vector>
+	<cstdint>
+	<ostream>
+	<fstream>
+	<algorithm>
+	"TrabajoPintura.h"
+	"RevisionAlarma.h"
+	<sstream>
+
+1701325531 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\trabajopintura.h
+	"Servicio.h"
+
+1701327606 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\servicio.h
+	<iostream>
+	"CPersona.h"
+
+1701325531 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\cpersona.h
+	<iostream>
+	"CFecha.h"
+
+1701325531 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\cfecha.h
+	<ostream>
+	<iostream>
+	<fstream>
+
+1701325531 c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\include\revisionalarma.h
+	"Servicio.h"
+
+1701325794 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\cfecha.cpp
+	"CFecha.h"
+	<ctime>
+
+1701325662 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\cpersona.cpp
+	"CPersona.h"
+
+1701327544 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\manejadorservicios.cpp
+	"ManejadorServicios.h"
+
+1701326896 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\revisionalarma.cpp
+	"RevisionAlarma.h"
+
+1701327615 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\servicio.cpp
+	"Servicio.h"
+
+1701325662 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\segundo2023-v2\src\trabajopintura.cpp
+	"TrabajoPintura.h"
+
