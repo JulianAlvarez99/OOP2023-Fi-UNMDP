@@ -1,0 +1,44 @@
+#include "myClass.h"
+
+myClass::myClass(uint32_t ival, char ccar, uint32_t ilong) :      // constructor por defecto
+    iValor1(ival),
+    cLetra(ccar),
+    uLong(ilong)
+{
+
+}
+
+myClass::myClass(const myClass& orig)                // constructor de copia
+{
+    ;
+}
+
+
+myClass::~myClass()
+{
+    //dtor
+}
+
+/************
+class myClass
+{
+    public:
+        myClass();
+        ~myClass();
+        uint32_t GetiValor1() { return iValor1; }        // son funciones inline
+        void SetiValor1(uint32_t val) { iValor1 = val; }
+        uint32_t GetiValor2() { return iValor2; }
+        void SetiValor2(uint32_t val) { iValor2 = val; }
+        char GetcLetra() { return cLetra; }
+        void SetcLetra(char val) { cLetra = val; }
+        char GetNombre() { return *nombre; }
+        void SetNombre(char val) { *nombre = val; }
+    protected:
+    private:
+        uint32_t iValor1;
+        uint32_t iValor2;
+        char cLetra;
+        char *ptrNombre;
+        uuint32_t32_t uLong;
+};
+*****************/

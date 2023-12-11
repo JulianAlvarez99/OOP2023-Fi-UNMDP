@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1503923291 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 2\programas\05 var static\main.cpp
+	<iostream>
+	"prueba.h"
+
+1503410789 c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 2\programas\05 var static\prueba.h
+
+1503923370 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 2\programas\05 var static\prueba.cpp
+	"prueba.h"
+

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1693528643 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\fechaclicismo.cpp
+	"FechaClicismo.h"
+
+1693441687 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\fechaclicismo.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<ctime>
+
+1693700604 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\main.cpp
+	"Ciclista.h"
+	<iostream>
+	<algorithm>
+
+1693593933 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\tiempociclismo.cpp
+	"TiempoCiclismo.h"
+
+1693540578 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\tiempociclismo.h
+	<iostream>
+	<iomanip>
+	<time.h>
+	<cstdlib>
+
+1693700038 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\ciclista.cpp
+	"Ciclista.h"
+
+1693699493 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\ciclismo\ciclista.h
+	"FechaClicismo.h"
+	"TiempoCiclismo.h"
+	<iostream>
+	<time.h>
+	<cstdlib>
+

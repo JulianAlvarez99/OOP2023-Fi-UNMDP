@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1692761869 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia1\g1_vehiculo\main.cpp
+	<iostream>
+	"Vehiculo.h"
+
+1692761257 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia1\g1_vehiculo\vehiculo.cpp
+	"Vehiculo.h"
+
+1692761257 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia1\g1_vehiculo\vehiculo.h
+	<iostream>
+	<cstring>
+

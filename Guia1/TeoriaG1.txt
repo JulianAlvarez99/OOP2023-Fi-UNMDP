@@ -1,0 +1,102 @@
+1) ¿Qué entiende por paradigma? ¿Qué paradigma de programación utilizó hasta
+ahora? ¿Cuáles son sus características?
+
+Un paradigma es un estilo de programación. Un conjunto de métodos sistemáticos para resolver problemas computacionales. (Profile)
+
+Los paradigmas de programación son las formas de clasificar los lenguajes de programación en función de sus características. (Wikipedia)
+
+Son distintas maneras y estilos para plantear una solución a un problema computacional. (Cátedra)
+
+Utilizados hasta ahora
+
+Hasta ahora hemos utilizado el paradigma estructurado. Esta técnica consiste en basarse en un número muy bajo de expresiones repetidas, englobarlas todas en un procedimiento o función y llamarlo cada vez que tenga que ejecutarse. (Wikipedia) Engloba los conceptos de tipos de datos, operadores y expresiones, algoritmos, estructuras de control, funciones, constantes y variables, y programación modular (Cátedra).
+
+2) Describa el tipo de Dato Abstracto (TAD). ¿Puede el lenguaje C trabajar con
+TAD’s?. Dé un ejemplo de tipo de dato abstracto en C si el lenguaje lo soporta o
+de lo contrario indique como lo haría.
+
+Un TAD es un encapsulamiento que contiene la definición de un nuevo tipo de datos y
+todas las operaciones que se pueden realizar con él (matriz, string, complejo).
+El programa trata al TAD como un tipo elemental, accediendo a él sólo a través de los
+operadores que se hayan definido. Se facilitan las modificaciones e incorporaciones de nuevas características o funciones.
+C no está preparado para trabajar con TADs. Las variables de un nuevo tipo (estructuras),
+deben ser pasadas como parámetros a los procedimientos específicos. Pueden implementarse con una complejidad tal vez mayor que en otros lenguajes. Por ejemplo, podría declarar un TDA para trabajar con listas dinámicas de la siguiente forma:
+
+typedef struct list_node {
+   void *elem;
+   struct list_node *next;
+} list_node;
+
+typedef struct list {
+   list_node *head;
+   int count;
+} list;
+
+Para hacer uso de una estructura así, se necesita de una función que le asigne memoria, y otra que la libere:
+
+list *list_new(int size) {
+   list *l = NULL;
+
+   if (size > 0 && l = malloc(sizeof(list))) {
+      ...
+   }
+
+   return l;
+}
+
+void list_destroy(list **l) {
+   if (l && *l) {
+      ...
+   }
+}
+
+Además de todas las funciones necesarias para la creación de nodos nuevos, y la creación del vínculo entre nodos. 
+
+
+3) ¿En qué se basa la programación orientada a objetos POO? ¿Qué ventajas
+presenta respecto de otros lenguajes? ¿Qué características salientes posee?
+
+Se basa en el empleo de objetos (módulos, componentes) como elementos fundamentales, como una abstracción de algún hecho o ente del mundo real. Los objetos están compuestos por atributos y métodos (Cátedra).Los objetos pueden ser diseñados y comprobados de manera independiente del programa que va a usarlos y por lo tanto podrán ser reutilizados en otros programas.
+
+Caracteristicas/ventajas:
+ Reutilización de código:
+ 	Ahorra tiempo en el desarrollo de programas.
+	Empleo de software que ya ha sido probado.
+ Fácil mantenimiento y depuración de los programas.
+ Extensibilidad: posibilidad de ampliar la funcionalidad de la aplicación de manera sencilla.
+ Modularidad y encapsulamiento: el sistema se descompone en objetos con
+responsabilidades claramente especificadas.
+
+
+4) Defina clase y objeto. Explicite de qué manera se puede fijar el nivel de
+acceso a los miembros de una clase.
+
+Una clase es un TDA que puede ser considerado como una generalización de los struct en C. Un objeto es una variable o instancia concreta de una determinada clase.
+
+El nivel de acceso a los miembros de una clase puede fijarse con los modificadores public (acceso libre), private (sólo por funciones y operadores propios de la clase) y protected (privados para funciones externas, pero públicos para clases que la hereden).
+
+
+5) ¿Cómo se definen las funciones o métodos en una clase?
+
+Los métodos de una clase se definen anteponiendo a su nombre el nombre de la clase y el operador ::(scope) 
+<tipo_dato_retorno> <nombre_clase>::<nombre_metodo>(parametros) {...}
+
+6) Defina Lenguaje Unificado de Modelado. ¿Qué tipos de diagramas UML
+conoce?. Cree una clase, defina la visibilidad de los atributos y métodos, genere
+3 clases adicionales que hereden métodos y atributos de la clase anterior.
+Genere para esa situación un Diagrama UML.
+
+UML (Unified Modeling Language) es una serie de normas y estándares gráficos respecto a cómo se deben representar los esquemas y diagramas relativos al software (Cátedra)
+
+Los tipos de diagramas UML son:
+
+De clases, como una representación de conceptos que intervienen en un problema, o clases de software.
+De secuencia, para representar objetos y el intercambio de mensajes entre ellos.
+De estados, para indicar cómo evoluciona un sistema a medida que se producen determinados eventos.
+De colaboración, para representar objetos o clases y la forma en que transmiten mensajes y colaboran entre sí.
+De casos de uso, para representar a los actores y casos de uso que intervienen en un desarrollo de software.
+Otros (actividad, paquetes, arquitectura de software, etc).
+
+
+7) En C, para el manejo de archivos, utilizó File* el cual es un TDA, investigue al
+respecto. 

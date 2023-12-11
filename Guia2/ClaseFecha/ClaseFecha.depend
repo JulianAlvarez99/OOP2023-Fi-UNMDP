@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1693089266 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasefecha\main.cpp
+	<iostream>
+	"fecha.h"
+
+1693104529 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasefecha\fecha.cpp
+	"fecha.h"
+	<vector>
+
+1693088385 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasefecha\fecha.h
+	<iostream>
+	<algorithm>
+	<vector>
+

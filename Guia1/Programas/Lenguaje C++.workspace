@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="01 Var referencia/01 Var referencia.cbp" />
+		<Project filename="02 Cin Cout/02 Cin Cout.cbp" />
+		<Project filename="03 New Delete/03 New Delete.cbp" />
+		<Project filename="04 Constructores/04 Constructores.cbp" />
+		<Project filename="05 Var Static/05 Var Static.cbp" />
+		<Project filename="06 Strings/06 Strings.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

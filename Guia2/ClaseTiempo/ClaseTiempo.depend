@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1693326501 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasetiempo\main.cpp
+	<iostream>
+	"tiempo.h"
+
+1693326824 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasetiempo\tiempo.cpp
+	"tiempo.h"
+
+1693326709 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\clasetiempo\tiempo.h
+	<iostream>
+	<iomanip>
+

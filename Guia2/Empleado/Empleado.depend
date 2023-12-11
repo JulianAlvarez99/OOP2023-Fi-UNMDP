@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1693417657 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\empleado\main.cpp
+	<iostream>
+	"Empleado.h"
+
+1693417699 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\empleado\empleado.cpp
+	"Empleado.h"
+	<cstdlib>
+
+1693414516 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\empleado\empleado.h
+	<iostream>
+	"Fecha.h"
+
+1693416461 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\empleado\fecha.h
+	<iostream>
+	<algorithm>
+	<vector>
+
+1693417145 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia2\empleado\fecha.cpp
+	"fecha.h"
+	<vector>
+

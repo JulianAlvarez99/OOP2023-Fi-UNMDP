@@ -1,0 +1,96 @@
+1) Mencione y defina los tipos de ámbitos de las variables que se presentaron en la teoría. 
+¿Por qué definiría como global una variable de tipo static?
+
+Según The C++ Programming Language, los ámbitos (scopes) son:
+
+-Local: una variable declarada en una función o lambda. Su ámbito se extiende desde su declaración hasta el fin del bloque que la contiene (delimitado por {}).
+-De clase: se conoce como miembro a la variable que es definida en una clase por fuera de cualquier otra función, clase, enumerador u otro namespace. Su ámbito se extiende desde el punto de declaración hasta el fin del namespace.
+-Global: cuando una variable es definida por fuera de una función, clase, enumerador o namespace. Su ámbito se extiende desde el punto de declaración hasta el fin del archivo donde ésta ocurre.
+-De sentencia (statement scope): si se la define dentro de los () en un for, while, if o switch. Se extiende desde la declaración hasta el fin de la sentencia. Todas las variables de este ámbito son variables locales.
+-De función (function scope): El ámbito de un label es desde su declaración hasta el fin de la función.
+
+Declarar una variable global como static implicaría que cada archivo *.cpp tenga su propia copia de la variable.
+
+
+2) ¿Qué modificador elegiría para indicar que una variable puede cambiar su valor entre accesos aún cuando no pareciera haber sido modificado?
+¿En qué aplicaciones se utiliza este modificador?
+
+Se utiliza el modificador volatile. El objeto puede ser modificado mediante procesos externos (programas multihilo
+interrupciones o registros con periféricos). Se asegura que el sistema operativo consulte su valor actual 
+antes de usarlo (el valor puede cambiar sin que el programa se entere). Se utiliza en la escritura de código de bajo nivel, 
+que requiere acceso directo al hardware (por ejemplo, leer los datos de una placa de adquisición).
+
+
+3) ¿Por qué puede ser que el operador new retorna un puntero y no una referencia? 
+(Ayuda: piense en la diferencia entre punteros y referencias para encontrar la respuesta)
+
+Porque las referencias sólo pueden ser asignadas una vez, mientras que el valor de un puntero puede cambiar de acuerdo a las necesidades del programador.
+
+
+4) Indique cuál es la función de los constructores y para qué existen los destructores.
+
+Los constructores se utilizan para definir cómo deberán inicializarse los objetos de una clase determinada. 
+Los destructores se encargan de la "limpieza", cuando el objeto ya no es necesario y se requiere liberar la memoria asignada a éste.
+
+
+5) Llene los espacios en blanco:
+● Se tiene acceso a los miembros de clase vía el operador (.) en
+conjunción con un objeto de clase o vía el operador (->) en
+conjunción con un apuntador a un objeto de clase.
+● Los miembros de una clase especificados como (private) son sólo
+accesibles a las funciones miembro de la clase y amigos de la clase.
+● Un (Constructor) es una función miembro especial utilizada para inicializar
+los miembros de datos de una clase.
+● El acceso por omisión para los miembros de una clase es (public).
+● Los miembros de una clase especificados como (static) son accesibles
+en cualquier parte en que un objeto de la clase esté en alcance.
+● El operador (new) asigna dinámicamente memoria para un objeto de
+un tipo específico y regresa un (puntero) a dicho tipo.
+● Las operaciones de entrada son soportadas por la clase (istream).
+● Las operaciones de salida son soportadas por la clase (ostream).
+
+
+6) Encuentre el o los errores y corrija:
+void ~Time(int); // <-- Declarado fuera de la clase, no puede tomar
+                 // parámetros ni debe tener un tipo de devolución
+                 // (aunque fuera void)
+
+\* Suponga la siguiente definición parcial de la clase Time *\
+class Time
+{
+public: // <-- Faltan constructor y destructor
+    	// Function prototypes
+
+private:
+    int hour = 0;
+    int minute = 0;
+    int second = 0;
+};
+
+El codigo correcto seria:
+class Time
+{
+public:
+    // Function prototypes
+    Time(int hora, int minuto, int segundo);
+    ~Time();
+
+private:
+    int hour = 0;
+    int minute = 0;
+    int second = 0;
+};
+
+
+7) ¿Se pueden utilizar los nombres definidos en un espacio de nombres sin
+utilizar la palabra reservada using?
+
+Si se puede utilizar utilizando el operador ::
+
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+    std::cout << "Hello world!" << std::endl;
+    return 0;
+}

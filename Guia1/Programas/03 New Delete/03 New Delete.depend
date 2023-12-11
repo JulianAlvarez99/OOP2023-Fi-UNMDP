@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1503491785 source:c:\users\roberto\google drive\programacion orientada objetos\cursada 2017\teoria\unidad 2\programas\03 new delete\main.cpp
+	<iostream>
+	<string.h>
+	<conio.h>
+	<stdio.h>
+
