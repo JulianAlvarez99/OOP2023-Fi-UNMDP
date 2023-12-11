@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1697646752 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\tateti\main.cpp
+	"tateti.h"
+	<iostream>
+	<cstdlib>
+	<clocale>
+
+1697646810 c:\users\asusx\onedrive\escritorio\orientada a objetos\tateti\include\tateti.h
+
+1697646752 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\tateti\src\tateti.cpp
+	"tateti.h"
+	<iostream>
+

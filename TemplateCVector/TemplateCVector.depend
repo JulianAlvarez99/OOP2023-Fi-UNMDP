@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1699018057 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\templatecvector\main.cpp
+	<iostream>
+	"cVector.h"
+	"ctime"
+	<algorithm>
+
+1698770334 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\templatecvector\src\cvector.cpp
+	"cVector.h"
+	<cmath>
+	<stdexcept>
+
+1699017960 c:\users\asusx\onedrive\escritorio\orientada a objetos\templatecvector\include\cvector.h
+	<cstddef>
+	<cstdlib>
+	<iostream>
+

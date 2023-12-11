@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1695695429 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\vector\cvector.cpp
+	"cVector.h"
+	<cmath>
+	<stdexcept>
+
+1697644471 c:\users\asusx\onedrive\escritorio\orientada a objetos\vector\cvector.h
+	<cstddef>
+	<iostream>
+
+1697645146 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\vector\main.cpp
+	<iostream>
+	"cVector.h"
+	"ctime"
+
