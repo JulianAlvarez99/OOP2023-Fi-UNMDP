@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1694539548 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\programas iv\06 strings\main.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<fstream>
+	<stdlib.h>
+
