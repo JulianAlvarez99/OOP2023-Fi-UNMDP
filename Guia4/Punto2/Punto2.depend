@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1695697030 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\becario.cpp
+	"Becario.h"
+
+1697728538 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\becario.h
+	<iostream>
+	<string>
+	"Empleado.h"
+	"Estudiante.h"
+
+1695697030 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\empleado.h
+	<iostream>
+	<string>
+	"Persona.h"
+
+1695697030 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\persona.h
+	<iostream>
+	"Fecha.h"
+
+1695697030 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\fecha.h
+	<iostream>
+
+1695697029 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\estudiante.h
+	<iostream>
+	"Persona.h"
+
+1695697030 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\empleado.cpp
+	"Empleado.h"
+
+1695697030 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\estudiante.cpp
+	"Estudiante.h"
+
+1695697029 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\fecha.cpp
+	"Fecha.h"
+
+1695697030 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\main.cpp
+	"Becario.h"
+
+1695697030 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto2\persona.cpp
+	"Persona.h"
+

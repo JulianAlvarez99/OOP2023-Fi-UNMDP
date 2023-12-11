@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1695141735 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\polar\main.cpp
+	<iostream>
+	<fstream>
+	"polar.h"
+
+1695139236 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\polar\polar.cpp
+	"polar.h"
+	<math.h>
+
+1695141770 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\polar\polar.h
+	"Complejos.h"
+	<iostream>
+
+1695139620 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\polar\complejos.h
+	<iostream>
+
+1695139672 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\polar\complejos.cpp
+	"Complejos.h"
+

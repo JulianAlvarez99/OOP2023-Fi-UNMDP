@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1695696231 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto5\empleado.cpp
+	"Empleado.h"
+
+1695696231 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto5\empleado.h
+	<iostream>
+	<string>
+
+1695696231 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto5\empresa.cpp
+	"Empresa.h"
+	<cmath>
+
+1695696244 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto5\empresa.h
+	<iostream>
+	<vector>
+	"Empleado.h"
+
+1695696231 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia4\punto5\main.cpp
+	<stdio.h>
+	"Empresa.h"
+

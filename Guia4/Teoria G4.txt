@@ -1,0 +1,25 @@
+1) Explique con sus palabras el concepto de Herencia.
+
+Herencia es un mecanismo para derivar una clase de otras que comparten una serie de métodos y atributos. Permite ahorrar trabajo al programar, ya que los métodos y atributos compartidos sólo deben ser definidos en la clase base, y estarán disponibles para ambas.
+
+2) ¿Cuál es la relación entre los conceptos de clase, subclase y superclase?
+
+Una subclase es una clase derivada de una superclase (o clase base).
+
+3) En el lenguaje C++, la derivación es una forma de expresar la relación (Herencia)
+4) Una clase derivada es una (subclase) de una clase base.
+
+5) ¿Para qué se utiliza la palabra clave protected?
+
+Para declarar un atributo o método de forma tal que las clases derivadas puedan acceder a él, pero que se comporte como private para todo el resto del código.
+
+6) Los datos y miembros protegidos son completamente (visibles) para las
+clases derivadas.
+7) Las subclases pueden (redefinir) el comportamiento de su superclase.
+
+8) ¿Puede una clase derivada hacer que la función pública de una clase base sea
+privada? 
+
+Sí, declarando dicha clase base como private, como sigue:
+
+class subclase : private superclase(...){...}
