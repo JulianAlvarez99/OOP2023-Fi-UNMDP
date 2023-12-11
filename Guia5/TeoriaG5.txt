@@ -1,0 +1,68 @@
+1) ¿Qué es el polimorfismo?
+
+Es la capacidad de los objetos de responder al mismo mensaje en funcion de los parametro utilizados durante su invocacion o de la clase a la cual pertenece. Se puede invocar a una funcion de un objeto sin especificar su tipo exacto. Por ejemplo al invocar Figura.dibujar() se dibujará un círculo, un rectángulo o un poligono dependendiendo del objeto heredado de la clase Fifura que llame a la función
+
+
+2) Según lo que se vió en clase, ¿por qué no hacer que todas las funciones de
+una clase sean virtuales?
+
+Porque podria tener consecuencias graves en cuanto a perfomance. Por un lado, al hacer uso de una V-Table, el llamado a un metodo del objeto se vuelve indirecto, lo que causa una pequeña diferencia de velocidad respecto de una funcion no declarada como virtual. Pero el problema mas grave radica en que el compilador no puede optimizar este tipo de funciones haciendolas inline.
+
+3) ¿Qué es el enlace dinámico?
+
+La asociación se realiza en tiempo de ejecucion (redifinición de métodos). Las funciones polimórficas se declaran de la misma manera en distintas clases que las definen en forma diferente
+
+4) ¿Qué es una tabla v o VTABLE y para qué sirve?
+
+Una VIRTUAL METHOD TABLE O VTABLE es un mecanismo utilizado en un lenguaje de programacion para soportar el enlace dinámico. Cuando una clase declara una funcion como virtual, las clases derivadas lo sobreescriben, entonces se ejecutará el código correcto.
+
+5) ¿Qué es un destructor virtual?
+
+Los destructores virtuales son utiles cuando podría ocurrir que se elimine una instancia de una clase derivada a traves de un puntero a la clase base. Si el destructor es declarado como virtual, las clases derivadas lo sobrescriben, entonces se ejecutará el codigo correcto. Si se crea un metodo virtual, entonces por defecto debe haber un destructor virtual
+
+6) ¿Qué ocurre si se está dentro de un constructor y se llama a una función
+virtual?
+
+Se produce un error de compilacion. Dado que la VTable no existe aún, el compilador no sabe a que funcion llamar.
+
+7) ¿Cómo se puede crear un constructor virtual de copia?
+
+Los constructores no pueden ser virtuales, por lo que si se necesitara implementar en las clases derivadas el constructor de copia, se debería crear una funcion virtual "clonar" en la clase base y redefinirla en la clase derivada.
+
+8) Si una clase base declara una función como virtual, y una clase derivada no
+utiliza el término virtual cuando redefina esa función, ¿seguirá siendo virtual cual
+la herede una clase de tercera generación?
+
+Si, la funcion continua siendo virtual. De todas formas se acostumbra agregar dicha palabra para que el codigo sea mas claro
+
+9) ¿Por qué es malo cambiar el tipo de un objeto en tiempo de ejecución?
+
+En el caso de upcasting ocurre el object slicing, mientras que en el downcasting se podría llegar a dar una operacion no segura si la clase base no cuenta con el metodo esperado de la clase derivada.
+
+10) ¿Qué entiende por upcasting y downcasting?
+
+Upcasting es convertir una clase derivada en una clase base. Downcasting es convertir una clase base en una clase derivada
+
+11) Investigue sobre el Object slicing
+
+Cuando un objeto de una clase derivada se pasa por valor como un objeto de clase base, se llama al constructor de copia de la clase base, entonces algunos comportamientos especificos de la clase derivada se eliminan. Esto no ocurre cuando se utilizan punteros o referencias.
+
+12) ¿Cómo se puede prevenir el Object slicing?
+
+Se puede prevenir si evitamos pasar objetos por valor, y usamos punteros o referencias en su lugar
+
+13) ¿Qué significa filtrar la funcionalidad de manera ascendente?
+
+Se refiere a una caracteristica del polimorfismo que permite que las clases derivadas modifiquen o complementen el comportamiento de la clase base (Upcasting?)
+
+14) ¿Es bueno utilizar siempre la filtración ascendente?
+
+No siempre y hay varios puntos para fundamentar. Si no se trabaja que jerarquía de clases, o sea, que las clases derivadas son extensiones de la clase base, la filtracion no tiene sentido. Si se busca que diferentes objetos de las clases derivadas respondan de manera diferente a un metodo de la clase base, usar este tipo de filtracion es apropiado. Se utiliza tambien cuando se quiere lograr una mayor abstraccion y encampsulación del programa.
+
+15) Si un rectángulo “redondo” tiene bordes rectos y esquinas redondeadas, y su
+clase RectRedondo hereda tanto de Rectangulo como de Circulo, y éstos a su vez
+heredan de Figura ¿cuántas Figuras se crearán cuando cree un RectRedondo? 
+
+class RectRedondo : public virtual Figura
+
+En este caso, toda las clases derivadas heredan tambien de forma virtual. De esta manera, solo se creará una instancia de Figura al crear un RectRedondo

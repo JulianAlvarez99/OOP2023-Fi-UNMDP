@@ -1,0 +1,191 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\main.cpp
+	<iostream>
+
+1696996194 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\banco.cpp
+	"Banco.h"
+
+1697039540 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\banco.h
+	<string>
+	"Cuenta.h"
+
+1697059742 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cuentacorriente.h
+	<Cuenta.h>
+
+1697040672 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cuenta.h
+	<iostream>
+	<iomanip>
+	"Cliente.h"
+
+1697059742 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cajaahorro.h
+	<Cuenta.h>
+
+1696604470 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cajaahorro.cpp
+	"CajaAhorro.h"
+
+1697041169 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cuenta.cpp
+	"Cuenta.h"
+
+1696604470 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cuentacorriente.cpp
+	"CuentaCorriente.h"
+
+1696603653 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cvector.cpp
+	"cVector.h"
+	<cmath>
+	<stdexcept>
+
+1697059982 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cvector.h
+	<cstddef>
+	<iostream>
+	"Cuenta.h"
+
+1696604464 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cuentauniversitaria.cpp
+	"CuentaUniversitaria.h"
+
+1697059742 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cuentauniversitaria.h
+	<Cuenta.h>
+
+1696996194 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\cliente.cpp
+	"Cliente.h"
+
+1696996194 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\cliente.h
+	"Fecha.h"
+
+1697041169 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\include\fecha.h
+	"Fecha.h"
+	<time.h>
+	<iostream>
+
+1697041204 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\src\fecha.cpp
+	"Fecha.h"
+
+1697173882 source:c:\users\julia\desktop\p3g5\main.cpp
+	<iostream>
+	"Banco.h"
+	"CuentaUniversitaria.h"
+	"CuentaCorriente.h"
+	"CajaAhorro.h"
+
+1697088505 source:c:\users\julia\desktop\p3g5\src\cajaahorro.cpp
+	"CajaAhorro.h"
+
+1697088505 c:\users\julia\desktop\p3g5\include\cajaahorro.h
+	<Cuenta.h>
+
+1697172798 c:\users\julia\desktop\p3g5\include\cuenta.h
+	<iostream>
+	<iomanip>
+	"Cliente.h"
+
+1696996194 c:\users\julia\desktop\p3g5\include\cliente.h
+	"Fecha.h"
+
+1697041169 c:\users\julia\desktop\p3g5\include\fecha.h
+	"Fecha.h"
+	<time.h>
+	<iostream>
+
+1696996194 source:c:\users\julia\desktop\p3g5\src\cliente.cpp
+	"Cliente.h"
+
+1697173425 source:c:\users\julia\desktop\p3g5\src\cuenta.cpp
+	"Cuenta.h"
+
+1697088505 source:c:\users\julia\desktop\p3g5\src\cuentacorriente.cpp
+	"CuentaCorriente.h"
+
+1697088505 c:\users\julia\desktop\p3g5\include\cuentacorriente.h
+	<Cuenta.h>
+
+1697088505 source:c:\users\julia\desktop\p3g5\src\cuentauniversitaria.cpp
+	"CuentaUniversitaria.h"
+
+1697088505 c:\users\julia\desktop\p3g5\include\cuentauniversitaria.h
+	<Cuenta.h>
+
+1697171734 source:c:\users\julia\desktop\p3g5\src\cvector.cpp
+	"cVector.h"
+	<cmath>
+	<stdexcept>
+
+1697168829 c:\users\julia\desktop\p3g5\include\cvector.h
+	<cstddef>
+	<iostream>
+	"Cuenta.h"
+
+1697041204 source:c:\users\julia\desktop\p3g5\src\fecha.cpp
+	"Fecha.h"
+
+1697171734 source:c:\users\julia\desktop\p3g5\src\banco.cpp
+	"Banco.h"
+
+1697168844 c:\users\julia\desktop\p3g5\include\banco.h
+	<string>
+	"cVector.h"
+	"Cuenta.h"
+
+1697564798 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\main.cpp
+	<iostream>
+	"Banco.h"
+	"CuentaUniversitaria.h"
+	"CuentaCorriente.h"
+	"CajaAhorro.h"
+
+1697168844 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\banco.h
+	<string>
+	"cVector.h"
+	"Cuenta.h"
+
+1697168829 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cvector.h
+	<cstddef>
+	<iostream>
+	"Cuenta.h"
+
+1697172798 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cuenta.h
+	<iostream>
+	<iomanip>
+	"Cliente.h"
+
+1696996194 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cliente.h
+	"Fecha.h"
+
+1697041169 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\fecha.h
+	"Fecha.h"
+	<time.h>
+	<iostream>
+
+1697088505 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cuentauniversitaria.h
+	<Cuenta.h>
+
+1697088505 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cuentacorriente.h
+	<Cuenta.h>
+
+1697088505 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\include\cajaahorro.h
+	<Cuenta.h>
+
+1697171734 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\banco.cpp
+	"Banco.h"
+
+1697088505 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cajaahorro.cpp
+	"CajaAhorro.h"
+
+1696996194 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cliente.cpp
+	"Cliente.h"
+
+1697564933 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cuenta.cpp
+	"Cuenta.h"
+
+1697088505 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cuentacorriente.cpp
+	"CuentaCorriente.h"
+
+1697088505 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cuentauniversitaria.cpp
+	"CuentaUniversitaria.h"
+
+1697171734 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\cvector.cpp
+	"cVector.h"
+	<cmath>
+	<stdexcept>
+
+1697041204 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p3g5\p3g5\src\fecha.cpp
+	"Fecha.h"
+

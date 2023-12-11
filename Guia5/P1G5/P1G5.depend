@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1696569932 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\main.cpp
+	<iostream>
+	"AutoDeportivo.h"
+	"Furgoneta.h"
+	"Sedan.h"
+	"Camion.h"
+
+1696567741 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\vehiculo.cpp
+	"Vehiculo.h"
+
+1696568531 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\vehiculo.h
+	<iostream>
+
+1696568531 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\auto.cpp
+	"Auto.h"
+
+1696569282 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\auto.h
+	"Vehiculo.h"
+
+1696568531 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\camion.cpp
+	"Camion.h"
+
+1696568531 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\camion.h
+	<Vehiculo.h>
+
+1696570083 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\autodeportivo.cpp
+	"AutoDeportivo.h"
+
+1696570083 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\autodeportivo.h
+	<Auto.h>
+
+1696569282 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\furgoneta.cpp
+	"Furgoneta.h"
+
+1696569282 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\furgoneta.h
+	<Auto.h>
+
+1696569282 source:c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\src\sedan.cpp
+	"Sedan.h"
+
+1696569282 c:\users\asusx\onedrive\escritorio\orientada a objetos\guia5\p1g5\include\sedan.h
+	<Auto.h>
+
